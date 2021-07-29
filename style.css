@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body{
+    margin:0px;
+    font-family: 'Poppins';
+    width: 100%;
+    overflow-x: hidden;
+}
+
+:root {
+  --bike_image_width:288px;
+  --bike_image_height: 243px;
+  --font-color:#E76F51;
+}
+.common-text{
+    color: var(--font-color);
+}
+.header_nav{
+    background-color: #264653;
+}
+.top-section{
+    background-color: #264653;
+}
+
+.purchase-button{
+    background: #E76F51;
+}
+.featured_subheadline{
+    color:#E76F51;
+}
+.featured-bike-1,.featured-bike-3{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    height: var(--bike_image_height);
+    width:var(--bike_image_width);
+    object-fit: contain;
+}
+
+.featured-bike-2{
+    height: var(--bike_image_height);
+    width:var(--bike_image_width);
+    object-fit: contain;
+}
+
+.footer{
+    background-color: #0B0D17;
+}
